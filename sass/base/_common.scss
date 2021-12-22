@@ -1,0 +1,15 @@
+body {
+  color: var(--secondary-text-color);
+  background-color: var(--white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-family: roboto;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}

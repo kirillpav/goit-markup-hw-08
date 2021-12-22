@@ -1,0 +1,74 @@
+.spec-list {
+  display: flex;
+  width: 1170px;
+}
+
+.spec-list__item {
+  width: 270px;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &::before {
+    margin-bottom: 30px;
+  }
+
+  &:nth-child(1):before {
+    display: block;
+    content: '';
+    background-image: url(../imgs/attention-detail.svg);
+    width: 270px;
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &:nth-child(2):before {
+    display: block;
+    content: '';
+    background-image: url(../imgs/punctuality.svg);
+    width: 270px;
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &:nth-child(3):before {
+    display: block;
+    content: '';
+    background-image: url(../imgs/planning.svg);
+    width: 270px;
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &:nth-child(4):before {
+    display: block;
+    content: '';
+    background-image: url(../imgs/modern-tech.svg);
+    width: 270px;
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.spec-list__title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.spec-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin: 0;
+}

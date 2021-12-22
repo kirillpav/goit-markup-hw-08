@@ -1,0 +1,11 @@
+.work-list {
+  display: flex;
+}
+
+.work-list__item {
+  width: 370px;
+  margin-bottom: 0;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

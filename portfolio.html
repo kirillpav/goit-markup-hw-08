@@ -18,8 +18,8 @@
             <a href="index.html" class="header__logo"><span class="header__title">Web</span>Studio</a>
             <nav>
                 <ul class="site-nav list">
-                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
-                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link current">Портфолио</a></li>
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link current">Студия</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
                     <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
@@ -35,6 +35,49 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
+            <button type="button" class="menu-open-button" data-open-menu>
+                <svg class="menu-open-icon" height="40px" width="40px">
+                    <use href="./imgs/sprite.svg#menu-icon"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <button type="button" class="menu-close-button" data-open-menu>
+                <svg class="menu-close-icon" height="19px" width="19px">
+                    <use href="./imgs/sprite.svg#vector"></use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="mob-nav list">
+                    <li class="mob-nav__item"><a href="./index.html" class="mob-nav__link current link">Студия</a></li>
+                    <li class="mob-nav__item"><a href="./portfolio.html" class="mob-nav__link link">Портфолио</a></li>
+                    <li class="mob-nav__item"><a href="" class="mob-nav__link link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mob-contact">
+                <ul class="mob-contact-list list">
+                    <li class="mob-contact__item"><a class="mob-contact__link-tel link" href="tel:+380961111111">
+                            +38 096 111 11 11</a></li>
+                    <li class="mob-contact__item"><a class="mob-contact__link-mail link" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a></li>
+                </ul>
+            </div>
+            <div class="mob-socials">
+                <ul class="mob-socials-list list">
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Instagram</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Twitter</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Facebook</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
         <section class="section">
@@ -244,7 +287,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="./js/menu.js"></script>
     
 </body>
 </html>

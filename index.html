@@ -33,18 +33,59 @@
                     </svg>
                     +38 096 111 11 11</a></li>
             </ul>
+            <button type="button" class="menu-open-button" data-open-menu>
+                <svg class="menu-open-icon" height="40px" width="40px">
+                    <use href="./imgs/sprite.svg#menu-icon"></use>
+                </svg>
+            </button>
         </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <button type="button" class="menu-close-button" data-open-menu>
+                <svg class="menu-close-icon" height="19px" width="19px">
+                    <use href="./imgs/sprite.svg#vector"></use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="mob-nav list">
+                    <li class="mob-nav__item"><a href="./index.html" class="mob-nav__link current link">Студия</a></li>
+                    <li class="mob-nav__item"><a href="./portfolio.html" class="mob-nav__link link">Портфолио</a></li>
+                    <li class="mob-nav__item"><a href="" class="mob-nav__link link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mob-contact">
+                <ul class="mob-contact-list list">
+                    <li class="mob-contact__item"><a class="mob-contact__link-tel link" href="tel:+380961111111">
+                            +38 096 111 11 11</a></li>
+                    <li class="mob-contact__item"><a class="mob-contact__link-mail link" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a></li>
+                </ul>
+            </div>
+            <div class="mob-socials">
+                <ul class="mob-socials-list list">
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Instagram</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Twitter</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">Facebook</a>
+                    </li>
+                    <li class="mob-socials__item">
+                        <a class="mob-socials__link link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>       
     </header>
 
     <!-- Hero -->
     <main>
         <section class="hero">
-            <div class="hero-bcg">
                 <div class="container hero-container">
                     <h1 class="hero__title">Эффективные решения <br> для вашего бизнеса</h1>
                     <button type="button" class="hero__button" data-open-modal>Заказать услугу</button>
                 </div>
-            </div>
         </section>
 
     <!-- Specialty -->
@@ -75,7 +116,7 @@
 
         <!-- work -->
         <section class="section no-padding">
-            <div class="container">
+            <div class="container work-container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="work-list list">
                     <li class="work-list__item"><img src="./imgs/code.jpg" alt="Написание Кода" width="370" height="294"></li>
@@ -91,7 +132,7 @@
                 <h2 class="section-title ">Наша команда</h2>
                 <ul class="team-list list">
                     <li class="team-list__item">
-                        <img src="./imgs/igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                        <img src="./imgs/igor.jpg" alt="Игорь Демьяненко" >
                         <div class="team-list__info">
                             <h3 class="team-list__name">Игорь Демьяненко</h3>
                             <p class="team-list__text">Product Designer</p>
@@ -234,28 +275,28 @@
             <ul class="clients-list list">
                 <li class="clients-list__item">
                     <a href="" class="clients-list__link">
-                        <svg class="clients-list__icon" width="170px" height="92px">
+                        <svg class="clients-list__icon" height="92px">
                             <use href="./imgs/sprite.svg#client-1"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="clients-list__item">
                     <a href="" class="clients-list__link">
-                        <svg class="clients-list__icon" width="170px" height="92px">
+                        <svg class="clients-list__icon" height="92px">
                             <use href="./imgs/sprite.svg#client-2"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="clients-list__item">
                     <a href="" class="clients-list__link">
-                        <svg class="clients-list__icon" width="170px" height="92px">
+                        <svg class="clients-list__icon" height="92px">
                             <use href="./imgs/sprite.svg#client-3"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="clients-list__item">
                     <a href="" class="clients-list__link">
-                        <svg class="clients-list__icon" width="170px" height="92px">
+                        <svg class="clients-list__icon" height="92px">
                             <use href="./imgs/sprite.svg#client-4"></use>
                         </svg>
                     </a>
@@ -403,5 +444,6 @@
     </footer>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

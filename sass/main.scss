@@ -1,18 +1,19 @@
-@import './base/reset';
-@import './base/common';
+@import "./base/reset";
+@import "./base/common";
 
-@import './components/container';
-@import './components/section-title';
-@import './components/modal';
-@import './utils/vars';
-@import './utils/sections';
+@import "./components/container";
+@import "./components/section-title";
+@import "./components/modal";
+@import "./utils/vars";
+@import "./utils/sections";
+@import "./utils/is-hidden";
 
-@import './layout/header';
-@import './layout/hero';
-@import './layout/spec';
-@import './layout/work';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/portfolio';
-@import './layout/footer';
-@import './layout/form';
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/spec";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/footer";
+@import "./layout/form";
